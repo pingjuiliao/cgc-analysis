@@ -1,0 +1,38 @@
+NRFIN_00023            O 0m     electronictrading
+NRFIN_00039            O 1m     FablesReport        
+YAN01_00007            O 8m     Diophantine_Password_Wallet      
+YAN01_00010            O 5m     BitBlaster
+YAN01_00012            O 7m     Simple_Stack_Machine
+NRFIN_00035            O 2m     H20FlowInc 
+CROMU_00015            O 7m     CGC_Planet_Markup_Language_Parser
+CROMU_00016            O 1m     Network_Queuing_Simulator
+CROMU_00034            O 0m     Diary_Parser
+CROMU_00036            O 8m     Vector_Graphics_2       U       
+CROMU_00038            O 7m     String_Storage_and_Retrieval/CROMU_00038              
+KPRCA_00043            O 5m     online_job_application2
+NRFIN_00014            O 1m     multipass2
+NRFIN_00015            O 2m     stack_vm
+NRFIN_00018            O 0m     matrices_for_sale 
+NRFIN_00021            O 1m     HighFrequencyTradingAlgo
+CROMU_00006            O 11m    Charter   
+CROMU_00014            O 11m    SCUBA_Dive_Logging
+CROMU_00040            O 10m    Recipe_Database
+CROMU_00021            O 17m    simple_integer_calculator
+CROMU_00042            O 20m    Cromulence_All_Service
+KPRCA_00021            O 25m    KTY_Pretty_Printer
++CROMU_00027            O 40m   ASCII_Content_Server    
+KPRCA_00022            O 47m    online_job_application
+NRFIN_00024            O 78m    LMS
+KPRCA_00020            O 78m    ASL6parse
+KPRCA_00037            O 98m    CGC_Symbol_Viewer_CSV
+NRFIN_00037            O 230m   cotton_swab_arithmetic
+CROMU_00024            O 671m   String_Storage_and_Retrieval
+KPRCA_00028            O 780m   SLUR_reference_implementation       U
+NRFIN_00022            O 888m   HIGHCOO   
+CROMU_00043            O 348m   Packet_Analyzer
+KPRCA_00017            O 885m   HackMan
+NRFIN_00009            O 632m   Music_Store_Client       U    
++CROMU_00035            O 697m   SPIFFS       U
++CROMU_00033            O 325m   CGC_File_System
++CROMU_00018            O 111m   Vector_Graphics_Formats       U
+
