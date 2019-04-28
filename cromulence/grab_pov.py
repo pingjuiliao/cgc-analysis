@@ -44,18 +44,12 @@ pov_dir_path = [ path + f for f in os.listdir(path) if is_pov_dir(f) ]
 print pov_dir_path
 
 
-keywords = [
-            "write_00000_00000[]",
-            "write_00001_00000[]",
-            "write_00002_00000[]",
-            "write_00003_00000[]",
-            "write_00004_00000[]",
-            "write_00005_00000[]",
-            "write_00006_00000[]",
-            "write_00007_00000[]",
-            "write_00008_00000[]",
-            ]
 
+#write0_0 = "write_00000_00000[]"
+
+keywords = [ "write_" + str(i).rjust(5, "0") + "_00000[]" for i in range(0, 33000) ]
+
+print keywords
 
 for d in pov_dir_path :
     if not os.path.isdir(d) :
