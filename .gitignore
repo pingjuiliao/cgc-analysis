@@ -1,4 +1,4 @@
 ## ignore fuzzing result
-cormulence/**/i
-cormulence/**/o
+**/i
+**/o
 tmp
