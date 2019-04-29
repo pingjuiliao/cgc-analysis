@@ -1,3 +1,4 @@
 ## ignore fuzzing result
 **/o
+**/.gdb_history
 tmp
