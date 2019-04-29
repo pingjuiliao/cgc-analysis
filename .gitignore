@@ -1,7 +1,9 @@
 ## ignore fuzzing result
 **/o
+**/o_*
 **/.gdb_history
 **/peda*
 tmp
 **/tmp
+**/tmp_*
 
