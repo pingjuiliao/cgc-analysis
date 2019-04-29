@@ -1,3 +1,0 @@
-break *cgc_InitReceive
-break *cgc_InitQueues
-

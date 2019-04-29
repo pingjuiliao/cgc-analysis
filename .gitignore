@@ -1,4 +1,5 @@
 ## ignore fuzzing result
 **/o
 **/.gdb_history
+**/peda*
 tmp
