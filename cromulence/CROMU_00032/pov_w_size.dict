@@ -1,0 +1,6 @@
+## this file grab pieces from pov
+
+size="\xfa\x0f\x00\x00"
+magic="\x00CVF"
+header="\x11\x11\x02\x04"
+data="\x55\x55\x08\xff"

@@ -12,6 +12,7 @@ def main() :
     parser.add_argument('-i', '--input', type=str, help='input directory')
     parser.add_argument('-o', '--output', type=str, help='output directory' )
     parser.add_argument('-p', '--program', type=str, help='program path')
+    parser.add_argument('-d', '--debug', action="store_true", help='only launch first afl')
     ## QEMU mode always disabled
     ## always mounted
     args = parser.parse_args()
@@ -84,9 +85,11 @@ def run_command(args) :
     print qsym_cmd
 
     os.system(" ".join(afl_master_cmd))
-    os.system(" ".join(afl_slave_cmd))
-    time.sleep(.5)
-    os.system(" ".join(qsym_cmd))
+    if not args.debug :
+        print "not debug mode"
+        os.system(" ".join(afl_slave_cmd))
+        time.sleep(.5)
+        os.system(" ".join(qsym_cmd))
 
     os.system("tmux attach -t " + tmux_tag )
 

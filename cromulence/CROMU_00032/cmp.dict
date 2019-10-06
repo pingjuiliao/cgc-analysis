@@ -1,0 +1,5 @@
+## this file stores all the information from the cmp* instruction
+
+magic="\x00CVF"
+header="\x11\x11"
+framedata="\x55\x55"
