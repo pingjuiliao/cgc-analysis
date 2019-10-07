@@ -35,11 +35,17 @@ def main() :
         os.symlink(src_path, dst_path)
 
 
-
-
-
-
-
+s = \
+"""
+###########################################################################################################
+## sometimes crashes are too much  and we dont want to type ./binary < o/crashes/id:000001:09fkwsoijfqooiqwj
+##                                                          ./binary < o/crashes/id:000002:qwifkjwopqifjwiqo
+##                                                          ...............(too much work) ................
+##
+## so we symlink them to ./id0, ./id1, ./id2 ......
+############################################################################################################
+"""
 
 if __name__ == '__main__' :
+    print s
     main()
